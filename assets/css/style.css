@@ -397,7 +397,7 @@ html{
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  background: url("../img/ESummit.png") top center no-repeat;
+  background: url("../img/ESummit_landscape.png") top center no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
@@ -712,7 +712,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ESummit.png") no-repeat fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ESummit_landscape.png") no-repeat fixed center center;
   background-size: cover;
   width: 100%;
   /*height: 100vh;*/
@@ -1047,6 +1047,23 @@ section {
 @media (min-width: 1024px) {
   .testimonials {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ESummit_portrait.png") no-repeat fixed center center;
+    background-size: cover;
+    width: 100%;
+    /*height: 100vh;*/
+    padding: 60px 0;
+  }
+  #hero {
+    background: url("../img/ESummit_portrait.png") top center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
   }
 }
 
