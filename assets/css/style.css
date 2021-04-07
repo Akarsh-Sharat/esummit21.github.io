@@ -32,6 +32,10 @@ html{
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.partnerlogos{
+  display: inline-block;
+}
+
 .back-to-top {
   position: fixed;
   display: none;
